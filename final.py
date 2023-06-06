@@ -46,3 +46,7 @@ if __name__ == '__main__':
 # 例如，如果content是['段落1', '段落2', '段落3']，
 # 那么'\n'.join(content)将返回'段落1\n段落2\n段落3'。
 #然后，f.write('\n'.join(content))将连接后的字符串写入文件，每个段落占据一行。
+
+
+# 参考：https://mp.weixin.qq.com/s/5e2_r0QXUISVp9GdDsqbzg
+
