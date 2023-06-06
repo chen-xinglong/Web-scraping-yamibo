@@ -1,5 +1,6 @@
 # 百合会 小说  橡树之庭 提取
 # https://www.yamibo.com
+# 只需要修改book_name以及target两项即可
 import requests
 from tqdm import tqdm
 from bs4 import BeautifulSoup
@@ -17,8 +18,10 @@ def get_content(target):
 
 if __name__ == '__main__':
     server = 'https://www.yamibo.com'
+    ### 修改以下两项即可
     book_name = '橡树之庭.txt'
     target = 'https://www.yamibo.com/novel/265605' #目录页
+    ###
     req = requests.get(url = target)
     req.encoding = 'utf-8'
     html = req.text
